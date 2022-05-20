@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABAD40C12837570F00DCAD3E /* MarvelAPI_characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD40C02837570F00DCAD3E /* MarvelAPI_characters.swift */; };
+		ABAD40C32837579B00DCAD3E /* MarvelAPI_characters_codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD40C22837579B00DCAD3E /* MarvelAPI_characters_codable.swift */; };
+		ABAD40C728375A8800DCAD3E /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD40C628375A8800DCAD3E /* CharactersViewController.swift */; };
+		ABAD40C928375C0E00DCAD3E /* CharactersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD40C828375C0E00DCAD3E /* CharactersCollectionViewCell.swift */; };
+		ABAD40DA28376BA000DCAD3E /* testingComicAPI_success.json in Resources */ = {isa = PBXBuildFile; fileRef = ABAD40D928376BA000DCAD3E /* testingComicAPI_success.json */; };
+		ABAD40DB28376BA000DCAD3E /* testingComicAPI_success.json in Resources */ = {isa = PBXBuildFile; fileRef = ABAD40D928376BA000DCAD3E /* testingComicAPI_success.json */; };
+		ABF0B18C2835F38B006F7A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0B18B2835F38B006F7A2D /* AppDelegate.swift */; };
+		ABF0B18E2835F38B006F7A2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0B18D2835F38B006F7A2D /* SceneDelegate.swift */; };
+		ABF0B1902835F38B006F7A2D /* ComicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0B18F2835F38B006F7A2D /* ComicsViewController.swift */; };
+		ABF0B1932835F38B006F7A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF0B1912835F38B006F7A2D /* Main.storyboard */; };
+		ABF0B1962835F38B006F7A2D /* DisneyCruiseInterview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABF0B1942835F38B006F7A2D /* DisneyCruiseInterview.xcdatamodeld */; };
+		ABF0B1982835F38D006F7A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF0B1972835F38D006F7A2D /* Assets.xcassets */; };
+		ABF0B19B2835F38D006F7A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF0B1992835F38D006F7A2D /* LaunchScreen.storyboard */; };
+		ABF0B1A62835F38D006F7A2D /* DisneyCruiseInterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0B1A52835F38D006F7A2D /* DisneyCruiseInterviewTests.swift */; };
+		ABF0B1B02835F38D006F7A2D /* DisneyCruiseInterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0B1AF2835F38D006F7A2D /* DisneyCruiseInterviewUITests.swift */; };
+		ABF0B1B22835F38D006F7A2D /* DisneyCruiseInterviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0B1B12835F38D006F7A2D /* DisneyCruiseInterviewUITestsLaunchTests.swift */; };
+		ABF0B1C12835F6F9006F7A2D /* MarvelAPI_comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0B1C02835F6F9006F7A2D /* MarvelAPI_comics.swift */; };
+		ABF0B1C32835F9A6006F7A2D /* MarvelAPI_Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0B1C22835F9A6006F7A2D /* MarvelAPI_Common.swift */; };
+		ABF0B1C62835FA48006F7A2D /* MarvelAPI_comics_codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0B1C52835FA48006F7A2D /* MarvelAPI_comics_codable.swift */; };
+		ABF0B1C82835FE00006F7A2D /* MarvelAPI_comics_eNums.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0B1C72835FE00006F7A2D /* MarvelAPI_comics_eNums.swift */; };
+		ABF0B1CA28361999006F7A2D /* ComicsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0B1C928361999006F7A2D /* ComicsTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABF0B1A22835F38D006F7A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF0B1802835F38B006F7A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF0B1872835F38B006F7A2D;
+			remoteInfo = DisneyCruiseInterview;
+		};
+		ABF0B1AC2835F38D006F7A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF0B1802835F38B006F7A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF0B1872835F38B006F7A2D;
+			remoteInfo = DisneyCruiseInterview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABAD40C02837570F00DCAD3E /* MarvelAPI_characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPI_characters.swift; sourceTree = "<group>"; };
+		ABAD40C22837579B00DCAD3E /* MarvelAPI_characters_codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPI_characters_codable.swift; sourceTree = "<group>"; };
+		ABAD40C628375A8800DCAD3E /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		ABAD40C828375C0E00DCAD3E /* CharactersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCollectionViewCell.swift; sourceTree = "<group>"; };
+		ABAD40D928376BA000DCAD3E /* testingComicAPI_success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testingComicAPI_success.json; sourceTree = "<group>"; };
+		ABF0B1882835F38B006F7A2D /* DisneyCruiseInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyCruiseInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF0B18B2835F38B006F7A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABF0B18D2835F38B006F7A2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ABF0B18F2835F38B006F7A2D /* ComicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsViewController.swift; sourceTree = "<group>"; };
+		ABF0B1922835F38B006F7A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABF0B1952835F38B006F7A2D /* DisneyCruiseInterview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DisneyCruiseInterview.xcdatamodel; sourceTree = "<group>"; };
+		ABF0B1972835F38D006F7A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABF0B19A2835F38D006F7A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABF0B19C2835F38D006F7A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF0B1A12835F38D006F7A2D /* DisneyCruiseInterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneyCruiseInterviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF0B1A52835F38D006F7A2D /* DisneyCruiseInterviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyCruiseInterviewTests.swift; sourceTree = "<group>"; };
+		ABF0B1AB2835F38D006F7A2D /* DisneyCruiseInterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneyCruiseInterviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF0B1AF2835F38D006F7A2D /* DisneyCruiseInterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyCruiseInterviewUITests.swift; sourceTree = "<group>"; };
+		ABF0B1B12835F38D006F7A2D /* DisneyCruiseInterviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyCruiseInterviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABF0B1C02835F6F9006F7A2D /* MarvelAPI_comics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPI_comics.swift; sourceTree = "<group>"; };
+		ABF0B1C22835F9A6006F7A2D /* MarvelAPI_Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPI_Common.swift; sourceTree = "<group>"; };
+		ABF0B1C52835FA48006F7A2D /* MarvelAPI_comics_codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPI_comics_codable.swift; sourceTree = "<group>"; };
+		ABF0B1C72835FE00006F7A2D /* MarvelAPI_comics_eNums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPI_comics_eNums.swift; sourceTree = "<group>"; };
+		ABF0B1C928361999006F7A2D /* ComicsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF0B1852835F38B006F7A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF0B19E2835F38D006F7A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF0B1A82835F38D006F7A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABAD40BF283756FA00DCAD3E /* characters */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD40C02837570F00DCAD3E /* MarvelAPI_characters.swift */,
+				ABAD40C22837579B00DCAD3E /* MarvelAPI_characters_codable.swift */,
+			);
+			path = characters;
+			sourceTree = "<group>";
+		};
+		ABAD40C4283759E600DCAD3E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD40C528375A4D00DCAD3E /* Characters Screen */,
+				ABF0B1BE2835F683006F7A2D /* Comics Screen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		ABAD40C528375A4D00DCAD3E /* Characters Screen */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD40C628375A8800DCAD3E /* CharactersViewController.swift */,
+				ABAD40C828375C0E00DCAD3E /* CharactersCollectionViewCell.swift */,
+			);
+			path = "Characters Screen";
+			sourceTree = "<group>";
+		};
+		ABAD40CD2837687300DCAD3E /* JSON Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD40D928376BA000DCAD3E /* testingComicAPI_success.json */,
+			);
+			path = "JSON Files";
+			sourceTree = "<group>";
+		};
+		ABF0B17F2835F38B006F7A2D = {
+			isa = PBXGroup;
+			children = (
+				ABF0B18A2835F38B006F7A2D /* DisneyCruiseInterview */,
+				ABF0B1A42835F38D006F7A2D /* DisneyCruiseInterviewTests */,
+				ABF0B1AE2835F38D006F7A2D /* DisneyCruiseInterviewUITests */,
+				ABF0B1892835F38B006F7A2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF0B1892835F38B006F7A2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF0B1882835F38B006F7A2D /* DisneyCruiseInterview.app */,
+				ABF0B1A12835F38D006F7A2D /* DisneyCruiseInterviewTests.xctest */,
+				ABF0B1AB2835F38D006F7A2D /* DisneyCruiseInterviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF0B18A2835F38B006F7A2D /* DisneyCruiseInterview */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD40CD2837687300DCAD3E /* JSON Files */,
+				ABF0B1BF2835F6A3006F7A2D /* MarvelAPIs */,
+				ABAD40C4283759E600DCAD3E /* Screens */,
+				ABF0B18B2835F38B006F7A2D /* AppDelegate.swift */,
+				ABF0B18D2835F38B006F7A2D /* SceneDelegate.swift */,
+				ABF0B1912835F38B006F7A2D /* Main.storyboard */,
+				ABF0B1972835F38D006F7A2D /* Assets.xcassets */,
+				ABF0B1992835F38D006F7A2D /* LaunchScreen.storyboard */,
+				ABF0B19C2835F38D006F7A2D /* Info.plist */,
+				ABF0B1942835F38B006F7A2D /* DisneyCruiseInterview.xcdatamodeld */,
+			);
+			path = DisneyCruiseInterview;
+			sourceTree = "<group>";
+		};
+		ABF0B1A42835F38D006F7A2D /* DisneyCruiseInterviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF0B1A52835F38D006F7A2D /* DisneyCruiseInterviewTests.swift */,
+			);
+			path = DisneyCruiseInterviewTests;
+			sourceTree = "<group>";
+		};
+		ABF0B1AE2835F38D006F7A2D /* DisneyCruiseInterviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF0B1AF2835F38D006F7A2D /* DisneyCruiseInterviewUITests.swift */,
+				ABF0B1B12835F38D006F7A2D /* DisneyCruiseInterviewUITestsLaunchTests.swift */,
+			);
+			path = DisneyCruiseInterviewUITests;
+			sourceTree = "<group>";
+		};
+		ABF0B1BE2835F683006F7A2D /* Comics Screen */ = {
+			isa = PBXGroup;
+			children = (
+				ABF0B18F2835F38B006F7A2D /* ComicsViewController.swift */,
+				ABF0B1C928361999006F7A2D /* ComicsTableViewCell.swift */,
+			);
+			path = "Comics Screen";
+			sourceTree = "<group>";
+		};
+		ABF0B1BF2835F6A3006F7A2D /* MarvelAPIs */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD40BF283756FA00DCAD3E /* characters */,
+				ABF0B1C42835FA30006F7A2D /* comics */,
+				ABF0B1C22835F9A6006F7A2D /* MarvelAPI_Common.swift */,
+			);
+			path = MarvelAPIs;
+			sourceTree = "<group>";
+		};
+		ABF0B1C42835FA30006F7A2D /* comics */ = {
+			isa = PBXGroup;
+			children = (
+				ABF0B1C02835F6F9006F7A2D /* MarvelAPI_comics.swift */,
+				ABF0B1C52835FA48006F7A2D /* MarvelAPI_comics_codable.swift */,
+				ABF0B1C72835FE00006F7A2D /* MarvelAPI_comics_eNums.swift */,
+			);
+			path = comics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF0B1872835F38B006F7A2D /* DisneyCruiseInterview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF0B1B52835F38D006F7A2D /* Build configuration list for PBXNativeTarget "DisneyCruiseInterview" */;
+			buildPhases = (
+				ABF0B1842835F38B006F7A2D /* Sources */,
+				ABF0B1852835F38B006F7A2D /* Frameworks */,
+				ABF0B1862835F38B006F7A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisneyCruiseInterview;
+			productName = DisneyCruiseInterview;
+			productReference = ABF0B1882835F38B006F7A2D /* DisneyCruiseInterview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABF0B1A02835F38D006F7A2D /* DisneyCruiseInterviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF0B1B82835F38D006F7A2D /* Build configuration list for PBXNativeTarget "DisneyCruiseInterviewTests" */;
+			buildPhases = (
+				ABF0B19D2835F38D006F7A2D /* Sources */,
+				ABF0B19E2835F38D006F7A2D /* Frameworks */,
+				ABF0B19F2835F38D006F7A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF0B1A32835F38D006F7A2D /* PBXTargetDependency */,
+			);
+			name = DisneyCruiseInterviewTests;
+			productName = DisneyCruiseInterviewTests;
+			productReference = ABF0B1A12835F38D006F7A2D /* DisneyCruiseInterviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABF0B1AA2835F38D006F7A2D /* DisneyCruiseInterviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF0B1BB2835F38D006F7A2D /* Build configuration list for PBXNativeTarget "DisneyCruiseInterviewUITests" */;
+			buildPhases = (
+				ABF0B1A72835F38D006F7A2D /* Sources */,
+				ABF0B1A82835F38D006F7A2D /* Frameworks */,
+				ABF0B1A92835F38D006F7A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF0B1AD2835F38D006F7A2D /* PBXTargetDependency */,
+			);
+			name = DisneyCruiseInterviewUITests;
+			productName = DisneyCruiseInterviewUITests;
+			productReference = ABF0B1AB2835F38D006F7A2D /* DisneyCruiseInterviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF0B1802835F38B006F7A2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					ABF0B1872835F38B006F7A2D = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					ABF0B1A02835F38D006F7A2D = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = ABF0B1872835F38B006F7A2D;
+					};
+					ABF0B1AA2835F38D006F7A2D = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = ABF0B1872835F38B006F7A2D;
+					};
+				};
+			};
+			buildConfigurationList = ABF0B1832835F38B006F7A2D /* Build configuration list for PBXProject "DisneyCruiseInterview" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABF0B17F2835F38B006F7A2D;
+			productRefGroup = ABF0B1892835F38B006F7A2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF0B1872835F38B006F7A2D /* DisneyCruiseInterview */,
+				ABF0B1A02835F38D006F7A2D /* DisneyCruiseInterviewTests */,
+				ABF0B1AA2835F38D006F7A2D /* DisneyCruiseInterviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF0B1862835F38B006F7A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF0B19B2835F38D006F7A2D /* LaunchScreen.storyboard in Resources */,
+				ABF0B1982835F38D006F7A2D /* Assets.xcassets in Resources */,
+				ABF0B1932835F38B006F7A2D /* Main.storyboard in Resources */,
+				ABAD40DA28376BA000DCAD3E /* testingComicAPI_success.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF0B19F2835F38D006F7A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAD40DB28376BA000DCAD3E /* testingComicAPI_success.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF0B1A92835F38D006F7A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF0B1842835F38B006F7A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF0B1902835F38B006F7A2D /* ComicsViewController.swift in Sources */,
+				ABAD40C12837570F00DCAD3E /* MarvelAPI_characters.swift in Sources */,
+				ABF0B18C2835F38B006F7A2D /* AppDelegate.swift in Sources */,
+				ABAD40C928375C0E00DCAD3E /* CharactersCollectionViewCell.swift in Sources */,
+				ABF0B1962835F38B006F7A2D /* DisneyCruiseInterview.xcdatamodeld in Sources */,
+				ABF0B1C12835F6F9006F7A2D /* MarvelAPI_comics.swift in Sources */,
+				ABF0B1C82835FE00006F7A2D /* MarvelAPI_comics_eNums.swift in Sources */,
+				ABF0B1C32835F9A6006F7A2D /* MarvelAPI_Common.swift in Sources */,
+				ABF0B1CA28361999006F7A2D /* ComicsTableViewCell.swift in Sources */,
+				ABAD40C728375A8800DCAD3E /* CharactersViewController.swift in Sources */,
+				ABAD40C32837579B00DCAD3E /* MarvelAPI_characters_codable.swift in Sources */,
+				ABF0B18E2835F38B006F7A2D /* SceneDelegate.swift in Sources */,
+				ABF0B1C62835FA48006F7A2D /* MarvelAPI_comics_codable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF0B19D2835F38D006F7A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF0B1A62835F38D006F7A2D /* DisneyCruiseInterviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF0B1A72835F38D006F7A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF0B1B02835F38D006F7A2D /* DisneyCruiseInterviewUITests.swift in Sources */,
+				ABF0B1B22835F38D006F7A2D /* DisneyCruiseInterviewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABF0B1A32835F38D006F7A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF0B1872835F38B006F7A2D /* DisneyCruiseInterview */;
+			targetProxy = ABF0B1A22835F38D006F7A2D /* PBXContainerItemProxy */;
+		};
+		ABF0B1AD2835F38D006F7A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF0B1872835F38B006F7A2D /* DisneyCruiseInterview */;
+			targetProxy = ABF0B1AC2835F38D006F7A2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABF0B1912835F38B006F7A2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF0B1922835F38B006F7A2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABF0B1992835F38D006F7A2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF0B19A2835F38D006F7A2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABF0B1B32835F38D006F7A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABF0B1B42835F38D006F7A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF0B1B62835F38D006F7A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2L8DY5328;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DisneyCruiseInterview/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jwebnetworks.DisneyCruiseInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABF0B1B72835F38D006F7A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2L8DY5328;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DisneyCruiseInterview/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jwebnetworks.DisneyCruiseInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABF0B1B92835F38D006F7A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2L8DY5328;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jwebnetworks.DisneyCruiseInterviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisneyCruiseInterview.app/DisneyCruiseInterview";
+			};
+			name = Debug;
+		};
+		ABF0B1BA2835F38D006F7A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2L8DY5328;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jwebnetworks.DisneyCruiseInterviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisneyCruiseInterview.app/DisneyCruiseInterview";
+			};
+			name = Release;
+		};
+		ABF0B1BC2835F38D006F7A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2L8DY5328;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jwebnetworks.DisneyCruiseInterviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DisneyCruiseInterview;
+			};
+			name = Debug;
+		};
+		ABF0B1BD2835F38D006F7A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2L8DY5328;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jwebnetworks.DisneyCruiseInterviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DisneyCruiseInterview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF0B1832835F38B006F7A2D /* Build configuration list for PBXProject "DisneyCruiseInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF0B1B32835F38D006F7A2D /* Debug */,
+				ABF0B1B42835F38D006F7A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF0B1B52835F38D006F7A2D /* Build configuration list for PBXNativeTarget "DisneyCruiseInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF0B1B62835F38D006F7A2D /* Debug */,
+				ABF0B1B72835F38D006F7A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF0B1B82835F38D006F7A2D /* Build configuration list for PBXNativeTarget "DisneyCruiseInterviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF0B1B92835F38D006F7A2D /* Debug */,
+				ABF0B1BA2835F38D006F7A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF0B1BB2835F38D006F7A2D /* Build configuration list for PBXNativeTarget "DisneyCruiseInterviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF0B1BC2835F38D006F7A2D /* Debug */,
+				ABF0B1BD2835F38D006F7A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABF0B1942835F38B006F7A2D /* DisneyCruiseInterview.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABF0B1952835F38B006F7A2D /* DisneyCruiseInterview.xcdatamodel */,
+			);
+			currentVersion = ABF0B1952835F38B006F7A2D /* DisneyCruiseInterview.xcdatamodel */;
+			path = DisneyCruiseInterview.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ABF0B1802835F38B006F7A2D /* Project object */;
+}
